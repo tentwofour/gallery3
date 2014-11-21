@@ -1,7 +1,21 @@
 # We store Gallery3 data in var
 !var/.gitkeep
 !var/database.php.dist
-
+var/database.php
+var/albums/*
+!var/albums/.gitkeep
+var/logs/*
+!var/logs/.htaccess
+var/modules/*
+!var/modules/.gitkeep
+var/resizes/*
+!var/resizes/.gitkeep
+var/thumbs/*
+!var/thumbs/.gitkeep
+var/tmp/*
+!var/tmp/.htaccess
+var/uploads/*
+!var/uploads/.htaccess
 
 # local.php is a local customization point that gets loaded at the end of index.php
 local.php
