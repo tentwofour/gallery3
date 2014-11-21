@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a557758-50c7-4195-951b-e986f7dcd7be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/folder_sync/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/folder_sync/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/folder_sync/views/admin_folder_sync.html.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/folder_sync/controllers/admin_folder_sync.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/folder_sync/cron.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/folder_sync/css/folder_sync.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/folder_sync/js/folder_sync.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/folder_sync/controllers/folder_sync.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/folder_sync/helpers/folder_sync.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/folder_sync/models/folder_sync_entry.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/folder_sync/helpers/folder_sync_event.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/folder_sync/helpers/folder_sync_installer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/folder_sync/helpers/folder_sync_theme.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/folder_sync/views/folder_sync_tree.html.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/folder_sync/views/folder_sync_tree_dialog.html.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/folder_sync/module.info" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/downloadfullsize/images/ico-view-downloadfullsize.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/downloadfullsize/views/admin_downloadfullsize.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/downloadfullsize/controllers/admin_downloadfullsize.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/downloadfullsize/controllers/downloadfullsize.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/downloadfullsize/views/downloadfullsize_block.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/downloadfullsize/helpers/downloadfullsize_block.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/downloadfullsize/helpers/downloadfullsize_event.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/downloadfullsize/css/downloadfullsize_menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/downloadfullsize/helpers/downloadfullsize_theme.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/downloadfullsize/module.info" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gallery.iws" />
@@ -223,7 +217,13 @@
       <option name="project" value="LOCAL" />
       <updated>1416600843993</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added folder sync module">
+      <created>1416601511176</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1416601511176</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -271,7 +271,8 @@
     <MESSAGE value="Fixed issue in installer - if not installing from CLI, config key g3_password will not be set." />
     <MESSAGE value="Whitespace" />
     <MESSAGE value="Fixed issue with installer &amp; password&#10;Added var directory structure &amp; .gitignores" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed issue with installer &amp; password&#10;Added var directory structure &amp; .gitignores" />
+    <MESSAGE value="Added folder sync module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added folder sync module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
