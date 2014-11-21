@@ -138,7 +138,7 @@ class installer {
       $char += ($char > 90) ? 13 : ($char > 57) ? 7 : 0;
       $salt .= chr($char);
     }
-    if (!$password = $config["g3_password"]) {
+      if (isset($config["g3_password"]) && (!$password = $config["g3_password"])) {
       $password = substr(md5(time() . mt_rand()), 0, 6);
     }
     // Escape backslash in preparation for our UPDATE statement.
